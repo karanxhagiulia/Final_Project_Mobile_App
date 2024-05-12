@@ -1,0 +1,33 @@
+/* Login.css */
+
+.ion-padding {
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: rgba(123, 120, 170, 1);
+    margin-top: 20px;
+  }
+  
+  ion-input {
+    margin-bottom: 15px;
+  }
+  
+  ion-button {
+    background: linear-gradient(to right, rgba(13, 166, 194, 1), rgba(14, 57, 198, 1)) !important;
+    color: white !important;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  
+  ion-button:hover {
+    background: linear-gradient(to right, rgba(13, 166, 194, 1), rgba(14, 57, 198, 1)) !important;
+  }
+

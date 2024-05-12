@@ -1,0 +1,112 @@
+/* Updated CSS with increased specificity for buttons */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+  }
+
+
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
+  .toggle-buttons .toggle-option {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-bottom-color 0.3s, box-shadow 0.3s; /* Added box-shadow transition */
+    width: 50%;
+    text-align: center;
+    color: grey; /* Set default text color to grey */
+  }
+  
+  .toggle-buttons .toggle-option.active {
+    color: white;
+    border-bottom-color: rgb(91, 230, 255);
+  }
+  
+  
+
+  .watchlist h2,
+  .done-list h2 {
+    color: #b5b5b5;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: rgba(123, 120, 170, 1);
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li div {
+    flex: 1;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  p {
+    margin-top: 5px;
+  }
+  
+  .done-icon {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .done-icon:hover {
+    color: #0056b3;
+  }
+  
+  .select-text {
+    color: white !important;
+  }
+
+
+
+  ion-button {
+    --background: linear-gradient(to right, rgba(13, 166, 194, 1), rgba(14, 57, 198, 1));
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-container ion-input {
+    margin-right: 10px;
+  }
+  
+  .input-container ion-button {
+    margin-left: 10px;
+  }
+  

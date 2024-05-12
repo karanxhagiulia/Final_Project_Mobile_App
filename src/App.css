@@ -1,0 +1,106 @@
+body {
+  background-color: rgba(38, 36, 80, 1) !important; /* Set background color */
+  color: white; /* Set font color */
+}
+
+ion-content {
+    --ion-background-color: rgba(25, 23, 61, 1); /* Set background color for ion-content */
+}
+ion-header {
+    --ion-background-color: rgba(38, 36, 80, 1);
+    --ion-color-base: white; /* Change font color */
+}
+
+ion-footer {
+    --ion-background-color: rgba(38, 36, 80, 1);
+    --ion-color-base: white; /* Change font color */
+}
+
+.ion-tabbar {
+  background-color:rgba(123, 120, 170, 1) !important;
+  opacity: 0.5; /* Set opacity to 50% */
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling */
+}
+.select-text {
+    color: white !important;
+  }
+h1 {
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: rgba(123, 120, 170, 1);
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(123, 120, 170, 1);
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ 
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+table {
+  width: auto;
+  border-collapse: collapse;
+  margin: 0 auto; /* Center the table */
+}
+
+th, td {
+  border: 1px solid rgba(123, 120, 170, 1);
+  padding: 12px;
+  text-align: center;
+  white-space: nowrap;
+  word-wrap: break-word; /* Wrap text */
+}
+
+.tab-button {
+    background-color: rgb(206, 203, 240) !important;
+  }
+
+.tab-button-icon {
+  --color: rgb(183, 7, 7); /* Set the color to white */
+}
+  
+
+ion-button {
+  --background: linear-gradient(to right, rgba(13, 166, 194, 1), rgba(14, 57, 198, 1));
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+  
+ion-button:hover {
+  --background: linear-gradient(to right, rgba(13, 166, 194, 1), rgba(14, 57, 198, 1));
+}
+

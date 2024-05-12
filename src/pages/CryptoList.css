@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(38, 36, 80, 1); /* Set background color */
+    margin: 0;
+    padding: 0;
+    color: white; /* Set font color */
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.select-text {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white; /* Set text color */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ccc; /* Update label color */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: white; /* Update input text color */
+    background-color: rgba(38, 36, 80, 1); /* Update input background color */
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: white; /* Update text color */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(123, 120, 170, 1); /* Background color for odd rows */
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    white-space: nowrap;
+    color: white; /* Update text color */
+}
+
+#cryptoTable th:first-child,
+#cryptoTable td:first-child {
+    min-width: 150px; /* Set a minimum width for the first column */
+    border-radius: 8px;
+}
+
+.custom-button, .delete-button {
+    padding: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover, .delete-button:hover {
+    filter: brightness(0.8); /* Reduce brightness on hover */
+}
+
+.profit {
+    background-color: rgba(0, 255, 0, 0.5); /* Green background for profit */
+}
+
+.loss {
+    background-color: rgba(255, 0, 0, 0.5); /* Red background for loss */
+}
+
+/* Styling for each row */
+#cryptoTable tbody tr {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* Styling for cryptocurrency name */
+#cryptoTable tbody tr td:first-child {
+    text-transform: uppercase; /* Convert text to uppercase */
+    font-weight: bold;
+}
+
+/* Styling for quantity */
+#cryptoTable tbody tr td:nth-child(2) {
+    font-size: 14px; /* Adjust font size */
+    color: #ccc; /* Light gray color */
+}
+
+/* Styling for profit/loss */
+#cryptoTable tbody tr td:nth-child(3) {
+    text-align: right; /* Align to the right */
+}
+
+/* Styling for profit */
+#cryptoTable tbody tr .profit {
+    color: rgba(0, 255, 0, 1); /* Green color for profit */
+}
+
+/* Styling for loss */
+#cryptoTable tbody tr .loss {
+    color: rgba(255, 0, 0, 1); /* Red color for loss */
+}
+
+/* Add rounded corners to all table cells */
+#cryptoTable tbody tr td {
+    border-radius: 8px;
+}
+
+.centered-select {
+    margin: 0 auto; /* Horizontally center the select */
+    display: block; /* Ensure it's a block-level element */
+    width: fit-content; /* Adjust the width to fit the content */
+    color: aliceblue;
+    padding-bottom: 5%;
+}
+
+.add-crypto-button {
+    background: linear-gradient(to right, rgba(13, 166, 194, 1), rgba(14, 57, 198, 1));
+    margin-top: auto;
+    margin-bottom: auto;
+}
